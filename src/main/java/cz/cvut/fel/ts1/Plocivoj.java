@@ -9,4 +9,13 @@ public class Plocivoj {
         if (n <= 1) return 1;
         return n * factorial(n - 1);
     }
+
+    public static int factorialRecursive(int n){
+        if(n <= 1){
+            return 1;
+        }
+        else{
+            return n*factorialRecursive(n-1);
+        }
+    }
 }

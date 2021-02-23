@@ -14,4 +14,14 @@ public class PlocivojTest {
         long result = plocivoj.factorial(n);
         Assertions.assertEquals(expectedResult, result);
     }
+
+    @Test
+    public void factorialRecursiveTest() {
+        Plocivoj plocivoj = new Plocivoj();
+        int n = 6;
+        long expectedResult = 720;
+
+        long result = plocivoj.factorialRecursive(n);
+        Assertions.assertEquals(expectedResult, result);
+    }
 }
