@@ -1,0 +1,31 @@
+# ACTS Test Suite Generation: Tue Apr 13 09:55:08 CEST 2021
+#  '*' represents don't care value 
+# Degree of interaction coverage: 2
+# Number of parameters: 5
+# Maximum number of values per parameter: 4
+# Number of configurations: 24
+FirstNameLastName,Email,Age,Destination,Discount
+Vojtìch,email,100,New York,Student
+?:_-$!'/(){}[]#&@%~^+=,plocivoj@fel.cvut.cz,1,Berlín,Student
+Vojtìch,plocivoj@fel.cvut.cz,100,Berlín,Senior
+?:_-$!'/(){}[]#&@%~^+=,email,1,New York,Senior
+Vojtìch,plocivoj@fel.cvut.cz,1,New York,Coupon
+?:_-$!'/(){}[]#&@%~^+=,email,100,Berlín,Coupon
+Vojtìch,plocivoj@fel.cvut.cz,1,New York,None
+?:_-$!'/(){}[]#&@%~^+=,email,100,Berlín,None
+null,email,1,New York,Senior
+null,plocivoj@fel.cvut.cz,100,Berlín,Coupon
+Vojtìch,email,0,New York,None
+?:_-$!'/(){}[]#&@%~^+=,plocivoj@fel.cvut.cz,0,Berlín,Student
+Vojtìch,email,101,New York,Senior
+?:_-$!'/(){}[]#&@%~^+=,plocivoj@fel.cvut.cz,101,Berlín,Coupon
+Vojtìch,null,1,New York,None
+?:_-$!'/(){}[]#&@%~^+=,null,100,Berlín,Student
+Vojtìch,null,1,New York,Senior
+Vojtìch,null,1,New York,Coupon
+null,email,100,New York,Student
+null,email,1,Berlín,None
+Vojtìch,email,101,Berlín,Student
+?:_-$!'/(){}[]#&@%~^+=,plocivoj@fel.cvut.cz,0,Berlín,Senior
+Vojtìch,plocivoj@fel.cvut.cz,0,Berlín,Coupon
+?:_-$!'/(){}[]#&@%~^+=,plocivoj@fel.cvut.cz,101,New York,None

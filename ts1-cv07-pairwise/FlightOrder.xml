@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="FlightOrder">
+  <Parameters>
+    <Parameter id="0" name="FirstNameLastName" type="1">
+      <values>
+        <value>Vojtìch</value>
+        <value>?:_-$!'/(){}[]#&amp;@%~^+=</value>
+      </values>
+      <basechoices />
+      <invalidValues>
+        <invalidValue>null</invalidValue>
+      </invalidValues>
+    </Parameter>
+    <Parameter id="1" name="Email" type="1">
+      <values>
+        <value>plocivoj@fel.cvut.cz</value>
+        <value>email</value>
+      </values>
+      <basechoices />
+      <invalidValues>
+        <invalidValue>null</invalidValue>
+      </invalidValues>
+    </Parameter>
+    <Parameter id="3" name="Age" type="0">
+      <values>
+        <value>1</value>
+        <value>100</value>
+      </values>
+      <basechoices />
+      <invalidValues>
+        <invalidValue>0</invalidValue>
+        <invalidValue>101</invalidValue>
+      </invalidValues>
+    </Parameter>
+    <Parameter id="5" name="Destination" type="1">
+      <values>
+        <value>Berlín</value>
+        <value>New York</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="6" name="Discount" type="1">
+      <values>
+        <value>Student</value>
+        <value>Senior</value>
+        <value>Coupon</value>
+        <value>None</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+  <Testset doi="2">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>Vojtìch</Value>
+      <Value>email</Value>
+      <Value>100</Value>
+      <Value>New York</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>?:_-$!'/(){}[]#&amp;@%~^+=</Value>
+      <Value>plocivoj@fel.cvut.cz</Value>
+      <Value>1</Value>
+      <Value>Berlín</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>Vojtìch</Value>
+      <Value>plocivoj@fel.cvut.cz</Value>
+      <Value>100</Value>
+      <Value>Berlín</Value>
+      <Value>Senior</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>?:_-$!'/(){}[]#&amp;@%~^+=</Value>
+      <Value>email</Value>
+      <Value>1</Value>
+      <Value>New York</Value>
+      <Value>Senior</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>Vojtìch</Value>
+      <Value>plocivoj@fel.cvut.cz</Value>
+      <Value>1</Value>
+      <Value>New York</Value>
+      <Value>Coupon</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>?:_-$!'/(){}[]#&amp;@%~^+=</Value>
+      <Value>email</Value>
+      <Value>100</Value>
+      <Value>Berlín</Value>
+      <Value>Coupon</Value>
+    </Testcase>
+    <Testcase TCNo="6">
+      <Value>7</Value>
+      <Value>Vojtìch</Value>
+      <Value>plocivoj@fel.cvut.cz</Value>
+      <Value>1</Value>
+      <Value>New York</Value>
+      <Value>None</Value>
+    </Testcase>
+    <Testcase TCNo="7">
+      <Value>8</Value>
+      <Value>?:_-$!'/(){}[]#&amp;@%~^+=</Value>
+      <Value>email</Value>
+      <Value>100</Value>
+      <Value>Berlín</Value>
+      <Value>None</Value>
+    </Testcase>
+    <Testcase TCNo="8">
+      <Value>9</Value>
+      <Value>null</Value>
+      <Value>email</Value>
+      <Value>1</Value>
+      <Value>New York</Value>
+      <Value>Senior</Value>
+    </Testcase>
+    <Testcase TCNo="9">
+      <Value>10</Value>
+      <Value>null</Value>
+      <Value>plocivoj@fel.cvut.cz</Value>
+      <Value>100</Value>
+      <Value>Berlín</Value>
+      <Value>Coupon</Value>
+    </Testcase>
+    <Testcase TCNo="10">
+      <Value>11</Value>
+      <Value>Vojtìch</Value>
+      <Value>email</Value>
+      <Value>0</Value>
+      <Value>New York</Value>
+      <Value>None</Value>
+    </Testcase>
+    <Testcase TCNo="11">
+      <Value>12</Value>
+      <Value>?:_-$!'/(){}[]#&amp;@%~^+=</Value>
+      <Value>plocivoj@fel.cvut.cz</Value>
+      <Value>0</Value>
+      <Value>Berlín</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="12">
+      <Value>13</Value>
+      <Value>Vojtìch</Value>
+      <Value>email</Value>
+      <Value>101</Value>
+      <Value>New York</Value>
+      <Value>Senior</Value>
+    </Testcase>
+    <Testcase TCNo="13">
+      <Value>14</Value>
+      <Value>?:_-$!'/(){}[]#&amp;@%~^+=</Value>
+      <Value>plocivoj@fel.cvut.cz</Value>
+      <Value>101</Value>
+      <Value>Berlín</Value>
+      <Value>Coupon</Value>
+    </Testcase>
+    <Testcase TCNo="14">
+      <Value>15</Value>
+      <Value>Vojtìch</Value>
+      <Value>null</Value>
+      <Value>1</Value>
+      <Value>New York</Value>
+      <Value>None</Value>
+    </Testcase>
+    <Testcase TCNo="15">
+      <Value>16</Value>
+      <Value>?:_-$!'/(){}[]#&amp;@%~^+=</Value>
+      <Value>null</Value>
+      <Value>100</Value>
+      <Value>Berlín</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="16">
+      <Value>17</Value>
+      <Value>Vojtìch</Value>
+      <Value>null</Value>
+      <Value>1</Value>
+      <Value>New York</Value>
+      <Value>Senior</Value>
+    </Testcase>
+    <Testcase TCNo="17">
+      <Value>18</Value>
+      <Value>Vojtìch</Value>
+      <Value>null</Value>
+      <Value>1</Value>
+      <Value>New York</Value>
+      <Value>Coupon</Value>
+    </Testcase>
+    <Testcase TCNo="18">
+      <Value>19</Value>
+      <Value>null</Value>
+      <Value>email</Value>
+      <Value>100</Value>
+      <Value>New York</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="19">
+      <Value>20</Value>
+      <Value>null</Value>
+      <Value>email</Value>
+      <Value>1</Value>
+      <Value>Berlín</Value>
+      <Value>None</Value>
+    </Testcase>
+    <Testcase TCNo="20">
+      <Value>21</Value>
+      <Value>Vojtìch</Value>
+      <Value>email</Value>
+      <Value>101</Value>
+      <Value>Berlín</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="21">
+      <Value>22</Value>
+      <Value>?:_-$!'/(){}[]#&amp;@%~^+=</Value>
+      <Value>plocivoj@fel.cvut.cz</Value>
+      <Value>0</Value>
+      <Value>Berlín</Value>
+      <Value>Senior</Value>
+    </Testcase>
+    <Testcase TCNo="22">
+      <Value>23</Value>
+      <Value>Vojtìch</Value>
+      <Value>plocivoj@fel.cvut.cz</Value>
+      <Value>0</Value>
+      <Value>Berlín</Value>
+      <Value>Coupon</Value>
+    </Testcase>
+    <Testcase TCNo="23">
+      <Value>24</Value>
+      <Value>?:_-$!'/(){}[]#&amp;@%~^+=</Value>
+      <Value>plocivoj@fel.cvut.cz</Value>
+      <Value>101</Value>
+      <Value>New York</Value>
+      <Value>None</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>FirstNameLastName</Value>
+    <Value>Email</Value>
+    <Value>Age</Value>
+    <Value>Destination</Value>
+    <Value>Discount</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.211</ExecutionTime>
+    <MaxDomainSize>4</MaxDomainSize>
+    <MinDomainSize>2</MinDomainSize>
+    <TotalNoOfCombination>96</TotalNoOfCombination>
+    <TotalNoOfTests>24</TotalNoOfTests>
+    <Algorithm>IPOG</Algorithm>
+  </Stat-Data>
+</System>
+
